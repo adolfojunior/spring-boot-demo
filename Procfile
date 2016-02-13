@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar  target/demoh-0.0.1-SNAPSHOT.jar
+web: java -jar  target/demoh-*.jar --server.port=$PORT --spring.profiles.active=heroku 
