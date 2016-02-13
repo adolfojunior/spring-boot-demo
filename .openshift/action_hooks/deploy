@@ -5,16 +5,16 @@ set -x
 if [ ! -d $OPENSHIFT_DATA_DIR/m2/repository ]
         then
                 cd $OPENSHIFT_DATA_DIR
-                        mkdir m2/repository
+                mkdir m2/repository
 fi
 
 if [ ! -f $OPENSHIFT_DATA_DIR/m2/settings.xml ]
         then
                 cd $OPENSHIFT_DATA_DIR
-                        touch m2/settings.xml
-                        echo "<settings>" >> ./m2/settings.xml
-                        echo "  <localRepository>${OPENSHIFT_DATA_DIR}/m2/repository</localRepository>" >> ./m2/settings.xml
-                        echo "</settings>" >> ./m2/settings.xml
+                touch m2/settings.xml
+                echo "<settings>" >> ./m2/settings.xml
+                echo "  <localRepository>${OPENSHIFT_DATA_DIR}/m2/repository</localRepository>" >> ./m2/settings.xml
+                echo "</settings>" >> ./m2/settings.xml
 fi
 
 if [ ! -d $OPENSHIFT_DATA_DIR/logs ]
