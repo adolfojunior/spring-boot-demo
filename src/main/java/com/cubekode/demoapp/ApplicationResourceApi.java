@@ -1,4 +1,4 @@
-package com.example;
+package com.cubekode.demoapp;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Path("/")
-public class ApplicationApi {
+public class ApplicationResourceApi {
 
 	@Value("${spring.application.name}")
 	private String name;
