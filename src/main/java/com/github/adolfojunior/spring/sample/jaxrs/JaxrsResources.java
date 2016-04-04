@@ -1,4 +1,4 @@
-package com.cubekode.demoapp.jaxrs;
+package com.github.adolfojunior.spring.sample.jaxrs;
 
 import java.util.HashSet;
 import java.util.Set;
