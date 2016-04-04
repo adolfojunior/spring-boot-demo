@@ -7,6 +7,12 @@ A simple RESTful Service using Spring Boot that autoconfigure JAX-RS Beans
 
 ## How to run it?
 
+Clone from git:
+```
+git clone https://github.com/adolfojunior/spring-boot-demo
+cd spring-boot-demo
+```
+
 Use the embedded maven wrapper to package it and run it!
 
   `./mvnw clean package`
