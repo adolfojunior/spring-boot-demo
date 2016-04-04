@@ -9,7 +9,7 @@ A simple RESTful Service using Spring Boot that autoconfigure JAX-RS Beans
 
 Clone from git:
 ```
-git clone https://github.com/adolfojunior/spring-boot-demo
+git clone https://github.com/adolfojunior/spring-boot-demo.git
 cd spring-boot-demo
 ```
 
