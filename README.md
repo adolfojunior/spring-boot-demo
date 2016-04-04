@@ -1,8 +1,9 @@
 # Spring Boot Sample
 
-A simple Restful Service using Spring Boot that autoconfigure JAX-RS Beans
+A simple RESTful Service using Spring Boot that autoconfigure JAX-RS Beans
 
 - [Spring Boot](http://projects.spring.io/spring-boot/)
+- [Spring Actuator](http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#production-ready)
 
 ## How to run it?
 
