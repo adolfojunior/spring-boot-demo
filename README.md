@@ -13,7 +13,7 @@ Use the embedded maven wrapper to package it and run it!
 
   `./mvnw spring-boot:run` or `java -jar target/*.jar`
 
-Check if everything is ok: (http://localhost:8080/api)
+Check if everything is ok: <http://localhost:8080/api>
 
   - `curl http://localhost:8080/api`
   - `curl http://localhost:8080/health`
