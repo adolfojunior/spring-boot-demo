@@ -29,7 +29,7 @@ Check if everything is ok: (http://localhost:8080/api)
 
 Check PORT and PROFILE on [Procfile](Procfile)
 
-  `git remote add heroku -f <openshift-git-repo-url>`
+  `git remote add heroku -f <heroku-git-repo-url>`
 
   `git push heroku master`
 
