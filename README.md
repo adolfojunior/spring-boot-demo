@@ -25,10 +25,10 @@ Check if everything is ok: <http://localhost:8080/api>
   - `curl http://localhost:8080/health`
   - `curl http://localhost:8080/metrics`
   
-App Endpoints
+App Endpoints:
 
-	- `curl -X GET http://localhost:8080/api/post`
-	- `curl -X POST http://localhost:8080/api/post`
+  - `curl -X GET http://localhost:8080/api/post`
+  - `curl -X GET http://localhost:8080/api/post/1`
 
 ### Running on Heroku
 
@@ -42,6 +42,7 @@ Check PORT and PROFILE
 ### Running on Openshift
 
 Check the deploy files:
+
   - [.openshift/action_hooks/deploy](.openshift/action_hooks/deploy)
   - [.openshift/action_hooks/start](.openshift/action_hooks/start)
   - [.openshift/action_hooks/stop](.openshift/action_hooks/stop)
