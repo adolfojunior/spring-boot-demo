@@ -22,7 +22,7 @@ public class PostControllerImpl implements PostController {
 
   @Override
   public Page<PostEntity> search(PageableBean pageableBean) {
-    return postService.search(null, pageableBean.toPageable());
+    return postService.findAll(null, pageableBean.toPageable());
   }
 
   @Override
@@ -32,7 +32,7 @@ public class PostControllerImpl implements PostController {
 
   @Override
   public PostEntity get(Long id) {
-    return null;
+    return postService.get(id);
   }
 
   @Override

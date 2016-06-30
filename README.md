@@ -24,6 +24,11 @@ Check if everything is ok: <http://localhost:8080/api>
   - `curl http://localhost:8080/api`
   - `curl http://localhost:8080/health`
   - `curl http://localhost:8080/metrics`
+  
+App Endpoints
+
+	- `curl -X GET http://localhost:8080/api/post`
+	- `curl -X POST http://localhost:8080/api/post`
 
 ### Running on Heroku
 

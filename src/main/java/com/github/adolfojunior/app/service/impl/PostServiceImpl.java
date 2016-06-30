@@ -22,7 +22,12 @@ public class PostServiceImpl implements PostService {
   }
 
   @Override
-  public Page<PostEntity> search(Specification<PostEntity> filter, Pageable pageable) {
+  public Page<PostEntity> findAll(Specification<PostEntity> filter, Pageable pageable) {
     return this.postRepository.findAll(filter, pageable);
+  }
+
+  @Override
+  public PostEntity get(Long id) {
+    return this.postRepository.findOne(id);
   }
 }

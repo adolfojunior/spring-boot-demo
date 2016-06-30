@@ -8,5 +8,7 @@ import com.github.adolfojunior.app.model.PostEntity;
 
 public interface PostService {
 
-  Page<PostEntity> search(Specification<PostEntity> filter, Pageable pageable);
+  Page<PostEntity> findAll(Specification<PostEntity> filter, Pageable pageable);
+
+  PostEntity get(Long id);
 }
