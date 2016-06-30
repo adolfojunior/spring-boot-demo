@@ -27,7 +27,8 @@ Check if everything is ok: <http://localhost:8080/api>
 
 ### Running on Heroku
 
-Check PORT and PROFILE on [Procfile](Procfile)
+Check PORT and PROFILE
+  - [Procfile](Procfile)
 
   `git remote add heroku -f <heroku-git-repo-url>`
 
@@ -35,10 +36,12 @@ Check PORT and PROFILE on [Procfile](Procfile)
 
 ### Running on Openshift
 
-Check the deploy files
-  [deploy](.openshift/action_hooks/deploy)
-  [start](.openshift/action_hooks/start)
-  [stop](.openshift/action_hooks/stop)
+Check the deploy files:
+  - [.openshift/action_hooks/deploy](.openshift/action_hooks/deploy)
+  - [.openshift/action_hooks/start](.openshift/action_hooks/start)
+  - [.openshift/action_hooks/stop](.openshift/action_hooks/stop)
+
+  Use the DIY Linux!
 
   `git remote add openshift -f <openshift-git-repo-url>`
 
